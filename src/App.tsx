@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//amanha 05/05/2022 15:00, 15:30, presencial, cti Caio, Recebi ligação de funcionário da PGE para entrevista de emprego
+import { useState } from 'react'
+import { Dashboard } from "./components/Dashboard/indesx";
+import { Header } from "./components/Header";
+import { NewTransactionModal } from './components/NewTransactionModal';
+import { TransactionsProvider } from './hooks/useTransactions'; 
 
-function App() {
+import { GlobalStyle } from "./styles/global";
+
+export function App() {
+  const [isNewTransactionModalOpen, setIsNewTransactionModalOpen] = useState(false);
+    
+    function handleOpenNewTransactionOpen() {
+        setIsNewTransactionModalOpen(true);
+    }
+
+    function handleCLoseNewTransactionOpen() {
+        setIsNewTransactionModalOpen(false);
+    }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TransactionsProvider>
+      <Header onOpenNewTransactionModal={handleOpenNewTransactionOpen} />
+
+      <Dashboard />
+
+      <NewTransactionModal
+        isOpen={isNewTransactionModalOpen}
+        onRequestClose={handleCLoseNewTransactionOpen}
+      />
+      
+      <GlobalStyle />
+    </TransactionsProvider>
   );
 }
-
-export default App;

@@ -1,0 +1,82 @@
+dt-Money:
+https://app.rocketseat.com.br/node/chapter-ii-1/group/estrutura-da-aplicacao-1/lesson/introducao-do-modulo-2
+
+
+https://classic.yarnpkg.com/en/docs/cli/create
+https://stackoverflow.com/questions/10129505/node-not-recognized-although-successfully-installed
+https://love2dev.com/blog/node-is-not-recognized-as-an-internal-or-external-command/
+
+
+figma:
+https://www.figma.com/file/iLFkm80Hm9YeC0lMuasNFN/dtmoney-Ignite
+https://www.figma.com/file/iLFkm80Hm9YeC0lMuasNFN/dtmoney-Ignite?node-id=0%3A1
+
+
+https://create-react-app.dev/
+
+
+https://create-react-app.dev/docs/getting-started
+    yarn create react-app dtmoney --template typescript
+
+
+https://www.figma.com/file/0xmu9mj2TJYoIOubBFWsk5/dtmoney-Ignite-(Copy)?node-id=0%3A1
+baixar os assets e colocar dentro da pasta
+https://xesque.rocketseat.dev/platform/1615808314498-attachment.zip
+
+
+
+instalar biblioteca para css em JS "styled-components":
+    yarn add styled-components
+    yarn add @types/styled-components -D
+
+
+para iniciar a aplicação:
+    yarn start
+
+Google Fonts:
+    https://fonts.google.com/specimen/Poppins
+
+
+
+Simulador de API:
+Serve para que quando o backend nao esteja pronto usa-se este simulador de server:
+    //sim usada:
+        https://miragejs.com/
+    yarn add miragejs
+    
+    
+    //não usadas:  somente didatico:
+        https://github.com/typicode/json-server
+        https://www.npmjs.com/package/json-server
+        https://github.com/mswjs/msw
+
+
+
+yarn add axios
+
+
+Para abrir a janela (Modal) de formulário:
+https://github.com/reactjs/react-modal
+    yarn add react-modal
+Documentação:    
+http://reactcommunity.org/react-modal/
+
+Para corrigir a tipagem do TypeScript:
+    yarn add @types/react-modal -D
+
+
+
+
+biblioteca para trabalhar com funções para a manipulação de cores para o componente NewTranscactionModal: função { darken }
+    yarn add polished
+    
+
+Documentação do styled-components: Props <RadioBoxProps>:
+https://styled-components.com/docs/api
+
+
+Para resolver problema de pegar timezone de regioes: Intl
+https://stackoverflow.com/questions/37798404/getting-timezone-using-intl-api-doesnt-work-in-firefox
+Intl.DateTimeFormat().resolvedOptions().timeZone
+
+

@@ -1,0 +1,21 @@
+https://www.figma.com/file/8bVDur6UVhRxvnKtKxQxaB/BankEth?node-id=8%3A319
+https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components
+
+
+
+
+https://app.rocketseat.com.br/h/forum/react-js/fc793003-66ea-4c30-9a1e-2542da903257
+21/02/22 às 10:22
+Igualando pixel com rem
+Aula em: Chapter II › Estrutura da aplicação › Criando estilos globais
+
+Posso utilizar essa estilização no html global para igualar o px com rem?
+
+fontSize: '62.5%',
+
+dessa forma:
+1rem = 10px
+3.6rem = 36px
+
+https://microsoftedge.microsoft.com/addons/detail/desbloquear-cors/jcpnfhmgopmjcnofcgplmhkgeicmbhli?hl=pt-BR
+
